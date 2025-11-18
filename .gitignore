@@ -27,3 +27,20 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+/out/
+/target/
+/build/
+
+### Large binaries ###
+*.exe
+*.msi
+*.zip
+*.tar
+*.gz
