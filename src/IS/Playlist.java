@@ -64,4 +64,13 @@ public class Playlist {
     public int getId() {
         return id;
     }
+
+    public List<Pesnicka> getPesnicky() {
+    return pesnicky;
+}
+
+public boolean isEmpty() {
+    return pesnicky.isEmpty();
+}
+
 }
